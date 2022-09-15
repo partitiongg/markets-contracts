@@ -10,4 +10,4 @@ At any time a pool may be drawn from by a paid call to `purchase(uint256 tokenId
 
 It is possible to add tokens to a pool directly, without invoking `activate`. Only a single pool can exist for a given token set, and this pool can also have any amount of its tokens withdrawn at any time by its NFT owner.
 
-All the ETH that has accumulated to a given pool through puchases of its token can transferred at any time to the NFT owner by calling `flush(uint256 tokenId)`.
+All the ETH that has accumulated to a given pool through puchases of its token can be transferred at any time to the NFT owner by calling `flush(uint256 tokenId)`.
